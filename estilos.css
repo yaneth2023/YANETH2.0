@@ -1,0 +1,150 @@
+*{/*còdigos universales de css*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  } 
+  header{
+    background:rgb(84, 158, 121);
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: normal;
+    color: white;
+     justify-content: center;
+  }
+body{
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+  nav{
+    background: rgb(208, 178, 95);
+    height: 63px;
+  }
+  #menu-h{
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+ 
+  }
+  #menu-h ul{
+   list-style: none;
+   display: flex;
+   justify-content: center;
+   width: 100%;
+  }
+  #menu-h a{
+    background: black;
+    width: 100%;
+    color: white;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    background: black;
+    font-size: 18px;
+  }
+  #menu-h a :hover{
+   background: #4b5b6a; 
+   }
+  #contenedor{ 
+    width: 950px;
+    min-height: 500px;
+    margin: auto;
+    border: black 1px solid;
+  }
+  .clearflix{
+    clear: both;
+  }
+  #seccion{
+    width: 100%;
+    min-height: 500px;
+    background: rgb(141, 85, 22);
+    padding: 20px;
+  }
+  aside{
+    float: left;
+    width: 100%;
+    background: lemonchiffon;
+    min-height: 500px;
+    padding: 15px;
+    text-align: center;
+    background: rgb(198, 217, 217);
+  }
+  footer{
+    width: 950px;
+    min-height: 40px;
+    background: black;
+    color: rgb(162, 240, 238);
+    line-height: 50px;
+    text-align: center;
+    margin-top: auto;
+    height: 50px;
+
+  }
+  #slider{
+    background: #5471cf;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    margin: auto;
+    
+  }
+  #eslider ul{
+    margin: auto;
+    list-style: none;
+    width: 950px;
+    display: flex;
+  }
+  *{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }  
+  .centrado{
+    text-align: center;
+    }
+  header{
+    background:rgb(6, 207, 107);
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    text-decoration: line;
+    line-height: normal;
+    color: white;
+    justify-content: center;
+}
+  #contenedor{
+    width: 100%;
+    margin: auto;
+    border:1px solid black;
+    width: 100%;
+  } 
+  .video{
+    position: fixed;
+    padding: auto;
+    min-width: 100px;
+    min-width: 100px;
+    top: 10%;
+    left: 10%;
+    transform: translateX(-50) translateX(-50%);
+    z-index: -1;
+    padding: 80px;
+  } 
+  #seccion{
+    float: left;
+    width: 100%;
+    min-height: 100px;
+    background: rgb(189, 165, 211);
+}
+footer{
+    background: rgb(13, 13, 13);
+    color: rgb(23, 14, 14);
+    text-align: center;
+    height: 1px;
+    margin: auto;
+    line-height: 300px;
+}
